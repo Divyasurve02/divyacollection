@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divya Collection</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="images/logo.png" alt="Divya Collection Logo" />
+        </div>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#collection">Our Collections</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="login.html">Admin Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <div class="hero-content">
+        <h2>Welcome to,</h2>
+        <h1>Divya Collection</h1>
+        <p>Embrace Your Style with Elegance and Grace.</p>
+        <a href="#collection" class="btn">Explore Now</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          At Divya Collection, we believe that fashion is an expression of
+          individuality. Our mission is to provide Women and Kids with a diverse
+          selection of clothing that caters to their unique tastes and
+          preferences. From casual wear to formal attire, we strive to offer a
+          comprehensive range of styles, sizes, and designs, ensuring that every
+          woman finds something that resonates with her personal style.
+        </p>
+      </div>
+    </section>
+
+    <section id="collection">
+      <div class="container">
+        <h2>Our Collection</h2>
+        <div class="collection-items">
+          <div class="collection-item">
+            <img src="images/dress.jpg" alt="Dress" />
+            <h3>Dresses</h3>
+            <p>
+              Discover an array of stunning dresses that effortlessly blend
+              comfort and style. Whether you're looking for a chic sundress or
+              an elegant evening gown, our collection has it all.
+            </p>
+          </div>
+          <div class="collection-item">
+            <img src="images/tops.webp" alt="Tops and Blouses" />
+            <h3>Tops and Blouses</h3>
+            <p>
+              Explore our collection of trendy tops and blouses that can be
+              paired with jeans, skirts, or trousers for a versatile and
+              fashionable look.
+            </p>
+          </div>
+          <div class="collection-item">
+            <img src="images/bottoms.jpg" alt="Bottoms" />
+            <h3>Bottoms</h3>
+            <p>
+              From classic jeans to stylish skirts and trousers, we have a wide
+              range of bottoms to suit every occasion and style preference.
+            </p>
+          </div>
+          <div class="collection-item">
+            <img src="images/ethnic.webp" alt="Ethnic Wear" />
+            <h3>Ethnic Wear</h3>
+            <p>
+              Embrace the richness of Indian traditions with our exquisite
+              collection of ethnic wear. From sarees to salwar suits, we offer a
+              blend of traditional designs with a modern twist.
+            </p>
+          </div>
+          <div class="collection-item">
+            <img src="images/accessories.jpg" alt="Accessories" />
+            <h3>Accessories</h3>
+            <p>
+              Complete your look with our carefully curated selection of
+              accessories, including jewelry, handbags, and scarves. These add
+              the perfect finishing touches to any outfit.
+            </p>
+          </div>
+          <div class="collection-item">
+            <img src="images/women.jpg" alt="Women Clothing" />
+            <h3>Women Clothing</h3>
+            <p>
+              Complete your look with our carefully curated selection of
+              accessories, including jewelry, handbags, and scarves. These add
+              the perfect finishing touches to any outfit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Feel free to leave us your feedback:</p>
+
+        <form
+          id="feedback-form"
+          action="https://formspree.io/f/xzbqnqnz"
+          method="POST"
+        >
+        
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="mobile">Mobile Number:</label>
+            <textarea
+              id="mobile"
+              name="mobile"
+              pattern="\d{10}"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Submit</button>
+        </form>
+        <p>Visit us at:</p>
+        <p>
+          Divya Collection,<br />
+          Bhosari, Pune,<br />
+          Mahrashtra, 411039
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Divya Collection. All rights reserved.</p>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/"
+              ><i class="fa fa-1.5x fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/__.divya_surve/"
+              ><i class="fa fa-1.5x fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/krishna_ingalgi"
+              ><i class="fa fa-1.5x fa-twitter"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
